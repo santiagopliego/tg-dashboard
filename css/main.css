@@ -1,4 +1,11 @@
-/* General Mechanics */
+body {
+	background-color: #F4F4F4;
+}
+
+
+
+/* General Mechanics
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .left {
 	float: left;
@@ -10,17 +17,121 @@
 
 /* Sections */
 
+.section-title {
+	font-size: 3.5rem;
+	font-weight: 400;
 
-/*Hero*/
+}
+
+.section-header {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.section-summary {
+	font-size: 1.6rem;
+	line-height: 27px;
+	color: #666;
+}
+
+.packet {
+	background-color: #FFF;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .hero {
-	background-image: url(http://i.imgur.com/ZrC2Vrh.jpg);
+	background-image: url(http://i.imgur.com/i4imH6L.png);
 	background-size: cover;
 }
 
-.event-details {
-	color:#ffffff;
+.hero-title {
+	font-size: 4rem;
+	font-weight: 700;
+	color: #fff;
 }
 
-/*Executive Summary*/
+.hero-subtitle {
+	font-size: 3rem;
+	font-weight: 300;
+	color: #fff;
+}
 
+.hero-date {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #fff;
+}
+
+
+/* Executive Summary
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.narrative {
+	width: 231px;
+	font-size: 1.6rem;
+	font-weight: normal;
+	line-height: 26.88px;
+	color: #15223C;
+}
+
+.gauge-title {
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-top: 9px;
+	color: #15223C;
+}
+
+/* Candidate Insights
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Student Migration
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.map-title {
+	text-align: center;
+	font-weight: 700px;
+	font-size: 18px;
+}
+
+
+.map {
+	max-width: 380px;
+}
+
+.table-small{
+	width: 92.83%;
+	box-sizing: border-box;
+}
+
+.asterisk {
+	font-size: 1.4rem;
+	line-height: 24px;
+	font-weight: normal;
+}
+
+
+/* Reported Degree Levels & Graduation Date
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.pie {
+	text-align: center;
+}
+
+.circle {
+	display: inline-block;
+	border-radius: 6px;
+    height: 12px;
+    margin-right: 5px;
+    width: 12px;
+}
+
+/* Circle Colors */
+
+.first { background-color: #55BCF5; }
+.second { background-color: #BBE5DF; }
+.third { background-color: #70A6B8; }
+.fourth { background-color: #6AD5BB; }
+.fifth { background-color: #1185C4; }
