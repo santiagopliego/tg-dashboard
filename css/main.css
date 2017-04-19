@@ -15,6 +15,16 @@ body {
 	float: right;
 }
 
+.title {
+	margin-top: 60px;
+}
+
+.section-spacer {
+	margin-top: 30px;
+}
+
+
+
 /* Sections */
 
 .section-title {
@@ -36,26 +46,67 @@ body {
 
 .packet {
 	background-color: #FFF;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 0px;
+	border-color: #DEDEDE;
 }
+
+
+
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero {
+	height: 380px;
+}
+
+.nav-row {
+	padding-top: 14px;
+}
+
+.logo {
+	margin-left: 30px;
+}
+
+.report-title {
+	display: inline;
+	font-size: 2rem;
+	font-weight: 300;
+	text-shadow: 1px 1px 2px #555;
+	color: #fff;
+	margin-left: 20px;
+	vertical-align: baseline;
+}
+
+.export {
+	margin:0 30px 0 15px;
+}
 
 .hero {
 	background-image: url(http://i.imgur.com/i4imH6L.png);
 	background-size: cover;
 }
 
+/*Event Details*/
+
+.event-details {
+	padding-top: 60px;
+}
+
 .hero-title {
 	font-size: 4rem;
 	font-weight: 700;
 	color: #fff;
+	margin-bottom: 10px;
 }
 
 .hero-subtitle {
 	font-size: 3rem;
 	font-weight: 300;
 	color: #fff;
+	margin-bottom: 10px
 }
 
 .hero-date {
@@ -67,6 +118,7 @@ body {
 
 /* Executive Summary
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 .narrative {
 	width: 231px;
@@ -106,10 +158,10 @@ body {
 	box-sizing: border-box;
 }
 
-.asterisk {
+.explanation {
 	font-size: 1.4rem;
 	line-height: 24px;
-	font-weight: normal;
+	font-weight: 400;
 }
 
 
@@ -118,6 +170,7 @@ body {
 
 .pie {
 	text-align: center;
+	margin-top: 30px;
 }
 
 .circle {
@@ -127,6 +180,15 @@ body {
     margin-right: 5px;
     width: 12px;
 }
+/*
+.last {
+	border-bottom: 1px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-left-color: #DEDEDE;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2)
+}
+*/
 
 /* Circle Colors */
 
@@ -135,3 +197,38 @@ body {
 .third { background-color: #70A6B8; }
 .fourth { background-color: #6AD5BB; }
 .fifth { background-color: #1185C4; }
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.app-footer {
+	color: #666;
+	font-size: 1.3rem;
+	height: 60px;
+	min-width: 944px;
+	padding: 20px 4px;
+	text-align: center;
+}
+
+.app-footer ul {
+	list-style-type: none;
+}
+
+.app-footer li {
+	display: inline-block;
+}
+
+.app-footer li:first-child:before {
+	content: "";
+	margin: 0;
+}
+
+.app-footer li:before{
+	content: "|"
+	margin: 0 8px;
+	color: #aaa;
+}
+
+li > a {
+	text-decoration: none;
+}
